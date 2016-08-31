@@ -34,15 +34,15 @@ app.use(session({
 
 var getDashboardData = function () {
     var tempPath = path.join(__dirname, dashboardDataFile);
-    return jsonFile.readFileSync(dashboardDataFile)
+    return jsonFile.readFileSync(tempPath)
 }
 var writeDashboardData = function (data) {
     var tempPath = path.join(__dirname, dashboardDataFile);
-    jsonFile.writeFileSync(dashboardDataFile, data)
+    jsonFile.writeFileSync(tempPath, data)
 }
 var getUserData = function () {
     var tempPath = path.join(__dirname, userDataFile);
-    return jsonFile.readFileSync(userDataFile)
+    return jsonFile.readFileSync(tempPath)
 }
 
 
