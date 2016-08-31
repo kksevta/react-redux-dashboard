@@ -1,0 +1,64 @@
+{
+  "name": "dashboard_implementation",
+  "version": "1.0.0",
+  "description": "Implementation of Dashboard with Multiple widgets",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build:webpack": "NODE_ENV=production webpack --progress --colors --config webpack.config.prod.js",
+    "build": "npm run clean && npm run build:webpack",
+    "start": "webpack-dev-server --hot --inline",
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot --host 0.0.0.0 --config webpack.config.dev.js --history-api-fallback"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Dashboard"
+  ],
+  "author": "Kuldeep",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "axios": "^0.13.1",
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "immutable": "^3.8.1",
+    "jsonfile": "^2.3.1",
+    "lodash": "^4.15.0",
+    "password-hash": "^1.2.2",
+    "react": "^15.2.1",
+    "react-bootstrap": "^0.30.2",
+    "react-d3": "^0.4.0",
+    "react-dom": "^15.2.1",
+    "react-grid-layout": "^0.13.0",
+    "react-modal-bootstrap": "^1.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.5.2",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.23.1",
+    "esformatter-jsx": "^7.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
