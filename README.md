@@ -1,5 +1,8 @@
 # react-redux-dashboard
 demo
+![demo](http://react-redux-dashboard.herokuapp.com/assets/demo.gif)
+
+
 - use admin as username and password
 - http://react-redux-dashboard.herokuapp.com/
 
