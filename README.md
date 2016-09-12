@@ -1,4 +1,8 @@
 # react-redux-dashboard
+demo
+- use admin as username and password
+- http://react-redux-dashboard.herokuapp.com/
+
 React Redux Dashboard Starter Kit
 Technologies/Tools used
 - React
