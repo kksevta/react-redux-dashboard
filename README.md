@@ -1,4 +1,5 @@
 # react-redux-dashboard
+WORK IN PROGRESS
 demo
 ![demo](http://react-redux-dashboard.herokuapp.com/assets/demo.gif)
 
